@@ -1,0 +1,27 @@
+{
+    "name": "webpacklearning",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "build": "webpack --config webpack.dev.config.ts -d",
+        "publish": "webpack --config webpack.prod.config.ts -p"
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "@types/node": "^10.5.8",
+        "@types/webpack": "^4.4.9",
+        "@types/webpack-merge": "^4.1.3",
+        "ts-loader": "^4.4.2",
+        "ts-node": "^7.0.1",
+        "typescript": "^2.9.2",
+        "webpack": "^4.16.5",
+        "webpack-cli": "^3.1.0",
+        "webpack-merge": "^4.1.3"
+    },
+    "dependencies": {
+        "querystring": "^0.2.0"
+    }
+}
